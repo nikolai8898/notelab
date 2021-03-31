@@ -1,6 +1,341 @@
 @import "scss/bootstrap";
 @import "../fonts/stylesheet.css";
 
+@media screen and (min-width: 1900px) {
+    .header {
+        padding: 83px 0px 120px;
+        h1 {
+            font-size: 60px;
+        }
+    }
+    .header-nav {
+        align-items: baseline;
+        ul {
+            li {
+                margin-left: 50px;
+            }
+        }
+    }
+    .metod {
+        h2 {
+            font-size: 48px;
+        }
+        &-content { 
+            div {
+                width: 924px;
+            }
+        }
+        &-content-2 { 
+            div {
+                width: 380px;
+            }
+            img {
+                margin-left: 157px;
+            }
+        }
+    }
+    .fear {
+        height: 653px;
+        &-content {
+            div {
+                margin-left: 93px;
+            }
+            &-children {
+                width: 418px;
+                height: 39px;
+            }
+        }
+    }
+    .garant {
+        height: 487px;
+        &-content {
+            &_left{
+                width: 600px;
+                h2 {
+                    font-size: 48px;
+                }
+            }
+        }
+    }
+    .cost_edu {
+        h2 {
+            font-size: 48px;
+        }
+        &-callback {
+            padding: 41px 60px;
+            input {
+                width: 457px;
+            }
+        }
+    }
+    .sixteen {
+        &-content {
+            h2 {
+                font-size: 48px;
+            }
+        }
+    }
+    .contacts-content-columns {
+        &_right {
+            width: 600px;
+            h3 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 48px;
+            }
+        }
+    }
+    .reviews {
+        #reviews-left {
+            left: 319px;
+        }
+        #reviews-right {
+            right: 298px;
+        }
+        .swiper {
+            img {
+                height: 220px;
+                width: 380px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1900px) {
+    .header {
+        padding: 83px 0px 120px;
+        h1 {
+            font-size: 60px;
+        }
+    }
+    .header-nav {
+        align-items: baseline;
+        ul {
+            li {
+                margin-left: 50px;
+            }
+        }
+    }
+    .metod {
+        h2 {
+            font-size: 48px;
+        }
+        &-content { 
+            div {
+                width: 924px;
+            }
+        }
+        &-content-2 { 
+            div {
+                width: 380px;
+            }
+            img {
+                margin-left: 157px;
+            }
+        }
+    }
+    .fear {
+        height: 653px;
+        &-content {
+            div {
+                margin-left: 93px;
+            }
+            &-children {
+                width: 418px;
+                height: 39px;
+            }
+        }
+    }
+    .garant {
+        height: 487px;
+        &-content {
+            &_left{
+                width: 600px;
+                h2 {
+                    font-size: 48px;
+                }
+            }
+        }
+    }
+    .cost_edu {
+        h2 {
+            font-size: 48px;
+        }
+        &-callback {
+            padding: 41px 60px;
+            input {
+                width: 457px;
+            }
+        }
+    }
+    .sixteen {
+        &-content {
+            h2 {
+                font-size: 48px;
+            }
+        }
+    }
+    .contacts-content-columns {
+        &_right {
+            width: 600px;
+            h3 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 48px;
+            }
+        }
+    }
+    .reviews {
+        #reviews-left {
+            left: 10px;
+        }
+        #reviews-right {
+            right: 10px;
+        }
+        .swiper {
+            img {
+                height: 220px;
+                width: 380px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) { 
+    .header {
+        padding: 10px ;
+        h1 {
+            font-size: 40px;
+        }
+        &-nav {
+            flex-direction: column;
+            align-items: center;
+            ul {
+                flex-direction: column;
+                li {
+                    padding: 10px 0;
+                    margin: 0;
+                }
+            }
+        }
+        .header-content_btn-group__orange {
+            margin-bottom: 10px;
+        }
+    }
+    .metod {
+        h2 {
+            font-size: 38px;
+        }
+        &-content {
+            flex-direction: column;
+            hr {
+                display: none;
+            }
+            div {
+                width: 100%;
+            }
+            h3 {
+                margin-top: 10px;
+            }
+            img {
+                margin: 0 auto;
+            }
+        }
+        &-content-2 {
+            flex-direction: column;
+            div {
+                width: 100%;
+            }
+            img {
+                margin: 0;
+            }
+        }
+    }
+    .fear {
+        height: inherit;
+        &-content {
+            flex-direction: column;
+            div {
+                margin-left: 0px;
+            }
+            &-children {
+                width: 100%;
+                height: inherit;
+            }
+        }
+    }
+    .garant {
+        height: inherit;
+        &-content {
+            flex-direction: column;
+            &_left{
+                width: 100%;
+                h2 {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+    .cost_edu {
+        h2 {
+            font-size: 38px;
+        }
+        &-callback {
+            padding: 20px;
+            flex-direction: column;
+            input {
+                height: inherit;
+                width: 100%;
+            }
+        }
+        .cost_edu-callback_right__btn {
+            margin-top: 10px;
+        }
+    }
+    .reviews {
+        &-content{
+            flex-direction: column;
+            .swiper {
+                img {
+                    width: 100%;
+                }
+        }
+        }
+        &-bg {
+            display: none;
+        }
+        h3 {
+            margin-top: 10px;
+        }
+        #reviews-left {
+            left: 10px;
+        }
+        #reviews-right {
+            right: 10px;
+        }
+    }
+    .sixteen {
+        &-content {
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }
+    .contacts-content-columns {
+        flex-direction: column;
+        &_right {
+            width: 100%;
+            h3 {
+                font-size: 26px;
+                margin-top: 10px;
+            }
+            #phone {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
 
 * {
     font-family: "Avenir Next Cyr";
@@ -9,8 +344,11 @@
 }
 body, html {
     background: linear-gradient(0deg, #EEEEEE 0%, rgba(238, 238, 238, 0.74) 36.83%);
+    -webkit-font-smoothing: antialiased;
 }
-
+body {
+    overflow-x: hidden;
+}
 .footer {
     a {
         text-decoration: none;
@@ -21,19 +359,16 @@ body, html {
 }
 .header {
     border: unset;
-    height: 960px;
     background-image: url(../images/bg-header.jpg);
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
-    padding-top: 83px;
     svg, img {
         vertical-align: center;
     }
     &-nav{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
         line-height: 120%;
         text-align: center;
         font-weight: 600;
@@ -45,11 +380,11 @@ body, html {
             li {
                 font-size: 18px;
                 letter-spacing: 2px;
-                margin-left: 50px;
             }
         }
         a {
             font-size: 20px;
+            color: #fff;
             text-decoration: unset;
         }
     }
@@ -57,7 +392,6 @@ body, html {
         color: #FFFFFF;
         h1 {
             font-weight: 750;
-            font-size: 60px;
             line-height: 120%;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -89,6 +423,9 @@ body, html {
                 text-transform: uppercase;
                 color: #FFFFFF;
             }
+            &__orange:hover {
+                background-color: lighten($color: #F26419, $amount: 10);
+            }
             &__opacity {
                 width: 200px;
                 height: 54px;
@@ -102,6 +439,9 @@ body, html {
                 letter-spacing: 0.75px;
                 text-transform: uppercase;
                 color: #FFFFFF;
+            }
+            &__opacity:hover {
+                background-color: lighten($color: #F26419, $amount: 10);
             }
         }
         &__discription {
@@ -126,11 +466,9 @@ body, html {
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
-    height: 909px;
-    padding-top: 100px;
+    padding: 100px 0px;
     h2{
         font-weight: 750;
-        font-size: 48px;
         line-height: 120%;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -147,14 +485,12 @@ body, html {
         img {
             width: 149px;
             height: 208px;
+            border-radius: 10px;
         }
         hr {         
             border: 1px solid rgba(255, 255, 255, 0.2);
             margin: 0 50px 0 57px;
             height: 208px;
-        }
-        div {
-            width: 924px;
         }
         h3 {
             font-weight: 500;
@@ -177,12 +513,6 @@ body, html {
         margin-top: 100px;
         display: flex;
         justify-content: space-between;
-        div {
-            width: 380px;
-        }
-        img {
-            margin-left: 157px;
-        }
         h4 {
             font-weight: 750;
             font-size: 20px;
@@ -197,15 +527,11 @@ body, html {
     background-image: url(../images/bg-swimmer.jpg);
     background-position: center;
     background-size: cover;
-    height: 653px;
     color: #062440;
     &-content{
         display: flex;
         img {
             margin-top: -28px;
-        }
-        div {
-            margin-left: 93px;
         }
         h2{
             margin-top: 100px;
@@ -240,9 +566,8 @@ body, html {
             font-size: 24px;
             line-height: 29px;
             text-align: center;
+            padding-top: 3px;
             color: #FFFFFF;
-            width: 418px;
-            height: 39px;
             background: #062440;
             border-radius: 4px;
             margin-bottom: 35px;
@@ -253,16 +578,13 @@ body, html {
     position: relative;
     background: #E46713;
     background-image: url(../images/bg-garant.png);
-    height: 487px;
     color: #FFFFFF;
     padding-top: 50px;
     &-content{
         display: flex;
         &_left{
-            width: 600px;
             h2{
                 font-weight: bold;
-                font-size: 48px;
                 line-height: 120%;
                 letter-spacing: 2px;
                 text-transform: uppercase;
@@ -317,10 +639,10 @@ body, html {
     }
 }
 .cost_edu{
+    padding-top: 94px;
+    padding-bottom: 80px;
     text-align: center;
     color: #062440;
-    padding-top: 94px;
-    height: 1680px;
     background: url(../images/bg-cost.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
@@ -345,7 +667,6 @@ body, html {
     }
     h2{
         font-weight: bold;
-        font-size: 48px;
         line-height: 120%;
         letter-spacing: 2px;
         margin-bottom: 10px;
@@ -376,7 +697,6 @@ body, html {
         display: flex; 
         background: #062440;
         border-radius: 20px;
-        padding: 41px 60px;
         &_left {
             width: 350px;
             display: flex;
@@ -407,7 +727,6 @@ body, html {
             padding-top: 25px;
             input {
                 padding-left: 20px;
-                width: 457px;
                 height: 50px;
                 margin-right: 20px;
                 background: #FFFFFF;
@@ -428,6 +747,9 @@ body, html {
                 letter-spacing: 0.75px;
                 text-transform: uppercase;
                 color: #FFFFFF;
+            }
+            &__btn:hover {
+                background-color: lighten($color: #F26419, $amount: 10);
             }
         }
     }
@@ -483,6 +805,9 @@ body, html {
             text-transform: uppercase;
             color: #FFFFFF;
         }
+        &__btn:hover {
+            background-color: lighten($color: #F26419, $amount: 10);
+        }
         .descrip {
             font-weight: normal;
             font-size: 16px;
@@ -495,16 +820,17 @@ body, html {
     background: #062440;
     position: relative;
     overflow: hidden;
-    height: 519px;
-    padding-top: 80px;
+    padding: 80px 0 97px;
     #reviews-right {
+        background: unset;
+        border: unset;
         position: absolute;
-        right: 298px;
         top: 290px;
     }
     #reviews-left {
+        background: unset;
+        border: unset;
         position: absolute;
-        left: 319px;
         top: 290px;
     }
     h2{
@@ -519,38 +845,43 @@ body, html {
     }
     &-bg {
         position: absolute;
-        right: 44px;
-        bottom: 267px;
+        right: 2.3%;
+        top: 0px;
     }
     &-content{
-        display: flex;
-        img {
-            width: 380px;
-            height: 220px;
-            margin-right: 61px;
-            border-radius: 12px;
-        }
-        h3{
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 120%;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            color: #FFFFFF;
-            margin-bottom: 6px;
-        }
-        h4{
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 29px;
-            color: #F26419;
-            margin-bottom: 20px;
-        }
-        p {
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 140%;
-            color: #FFFFFF;
+        overflow: hidden;
+        .swiper {
+            display: flex;
+            width: 200%;
+            transition: margin-left 2s ease-in-out;
+            margin-left: 0px;
+            img {
+                margin-right: 61px;
+                border-radius: 12px;
+            }
+            h3{
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 120%;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-bottom: 6px;
+            }
+            h4{
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                color: #F26419;
+                margin-bottom: 20px;
+            }
+            p {
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 140%;
+                color: #FFFFFF;
+                padding-right: 10px;
+            }
         }
     }
 }
@@ -558,7 +889,7 @@ body, html {
     background-image: url(../images/bg-16.jpg);
     background-size: cover;
     background-position: center;
-    height: 396px;
+    padding-bottom: 100px;
     &-content {
         display: flex;
         padding-top: 68px;
@@ -566,7 +897,6 @@ body, html {
             flex: 1;
             h2 {
                 font-weight: bold;
-                font-size: 48px;
                 line-height: 120%;
                 letter-spacing: 2px;
                 text-transform: uppercase;
@@ -588,6 +918,9 @@ body, html {
                 text-transform: uppercase;
                 color: #FFFFFF;
             }
+            &_btn:hover {
+                background-color: lighten($color: #F26419, $amount: 10);
+            }    
         }
         &_right{
             flex: 1;
@@ -615,8 +948,7 @@ body, html {
     background-image: url(../images/bg-contact.jpg);
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 600px;
+    padding-bottom: 100px;
     &-content {
         padding-top: 74px;
         h2 {
@@ -658,12 +990,13 @@ body, html {
                     letter-spacing: 0.75px;
                     text-transform: uppercase;
                 }
+                &_btn:hover {
+                    background-color: lighten($color: #F26419, $amount: 10);
+                }
             }
             &_right{
-                width: 680px;
                 h3 {
                     font-weight: 600;
-                    font-size: 36px;
                     line-height: 120%;
                     letter-spacing: 1px;
                     margin-bottom: 40px;
@@ -679,10 +1012,5 @@ body, html {
                 }
             }
         }
-    }
-}
-.map {
-    img {
-        width: 100%;
     }
 }

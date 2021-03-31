@@ -26,7 +26,7 @@
         <svg style="margin-top: -5px;" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M15.5951 19.006H15.5671C11.7254 18.9114 8.05937 17.3775 5.2951 14.708C2.62462 11.9462 1.08979 8.28156 0.994984 4.441C0.989327 3.903 1.20056 3.38536 1.5811 3.005L4.2951 0.293C4.6856 -0.0973819 5.3186 -0.0973819 5.7091 0.293L9.7091 4.293C10.0995 4.6835 10.0995 5.3165 9.7091 5.707L8.1131 7.3C8.40911 8.40592 8.95437 9.4294 9.7071 10.292C10.5681 11.045 11.5903 11.5906 12.6951 11.887L14.2951 10.293C14.6856 9.90262 15.3186 9.90262 15.7091 10.293L19.7091 14.293C20.0995 14.6835 20.0995 15.3165 19.7091 15.707L16.9951 18.42C16.625 18.7939 16.1212 19.0048 15.5951 19.006ZM5.0001 2.415H4.9951L2.9951 4.419C3.07664 7.73766 4.40142 10.9047 6.7071 13.293C9.09553 15.5979 12.2619 16.9225 15.5801 17.005L17.5871 15L14.9951 12.415L13.7021 13.707C13.5171 13.894 13.2652 13.9995 13.0021 14C12.9319 14 12.8618 13.9927 12.7931 13.978C11.1267 13.6094 9.57949 12.8285 8.2931 11.707C7.17155 10.4206 6.39071 8.87337 6.0221 7.207C5.95256 6.87577 6.05529 6.53184 6.2951 6.293L7.5871 5L5.0001 2.415Z" fill="#F26419"/>
         </svg>
-        <a>+7 925 111 11 24</a> 
+        <a href="+79251111124">+7 925 111 11 24</a> 
       </div>
     </div>
     <div class="header-content">
@@ -37,37 +37,37 @@
         <button class="header-content_btn-group__opacity">Программы</button>
       </div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="header-content__discription">
             <img src="./src/images/Group_head.png" alt="" />
             <p>Борьба со страхом перед водой</p>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="header-content__discription">
             <img src="./src/images/Group_head.png" alt="" />
             <p>Избавление от фобий и опасений перед глубиной</p>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="header-content__discription">
             <img src="./src/images/Group_head.png" alt="" />
             <p>Изучение кроля для начинающих</p>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="header-content__discription">
             <img src="./src/images/Group_head.png" alt="" />
             <p>Быстрое обучение плаванию для тех, кто не боится воды</p>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="header-content__discription">
             <img src="./src/images/Group_head.png" alt="" />
             <p>Эффективное обучение правильной технике по немецкой методике</p>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="header-content__discription">
             <img src="./src/images/Group_head.png" alt="" />
             <p>Первая оздоровительная программа на воде и в зале для позвоночника</p>
@@ -224,10 +224,10 @@
     </div>
     <hr>
     <div class="row">
-      <div class="col">
+      <div class="col-sm">
         <p class="action">О возможных скидках и акциях в некоторых бассейнах см. в разделе «<span style="color: #F26419;">Акции</span>».</p>
       </div>
-      <div class="col">
+      <div class="col-sm">
         <h3>Никаких доплат! Стоимость услуг бассейна уже входит в указанную цену.</h3>
       </div>
     </div>
@@ -255,23 +255,39 @@
     <path d="M110.947 41.5498H382.055C390.033 41.5498 396.498 48.0193 396.498 55.9932C396.498 63.9709 390.033 70.4366 382.055 70.4366H110.944C102.97 70.4366 96.5003 63.9709 96.5003 55.9932C96.5003 48.0193 102.97 41.5498 110.947 41.5498Z" fill="white"/>
     <path d="M110.947 41.5493H246.501V70.4361H110.947C102.97 70.4361 96.5039 63.9705 96.5039 55.9927C96.5039 48.0188 102.97 41.5493 110.947 41.5493Z" fill="#DFECF3"/>
   </svg>
-  <svg id="reviews-left" width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <button id="reviews-left" onclick="reviewsSwipeLeft()">
+    <svg width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M20.5054 0L0 20.5054L20.5054 41.0108L23.925 37.5937L6.83433 20.5054L23.925 3.41717L20.5054 0Z" fill="white"/>
-  </svg>   
+    </svg>
+  </button>
+  <button id="reviews-right" onclick="reviewsSwipeRight()">
+    <svg width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.41963 41.0107L23.9251 20.5053L3.41964 -9.33454e-05L5.28776e-05 3.41707L17.0907 20.5053L4.98898e-05 37.5936L3.41963 41.0107Z" fill="white"/>
+    </svg> 
+  </button>  
   <div class="container-xl">
     <h2>Отзывы </h2>
     <div class="reviews-content">
-      <img src="./src/images/review-ava.jpg" alt="" />
-      <div>
-        <h3>ВИКТОРИЯ КРАСНОВА</h3>
-        <h4>«Научилась плавать в 30 лет»</h4>
-        <p>Я с детства боялся воды и решил довериться методике школы «Mevis», чтобы преодолеть внутренние страхи и опасения и наконец научиться плавать. Безмерно благодарен тренерам, потому что уже через три недели, я подружился с водой, а еще через месяц уже уверенно плавал на небольшие дистанции...</p>
+      <div class="swiper" id="swiper-reviews">
+        <div class="slide">
+          <img src="./src/images/review-ava.jpg" alt="" />
+          <div>
+            <h3>ВИКТОРИЯ КРАСНОВА</h3>
+            <h4>«Научилась плавать в 30 лет»</h4>
+            <p>Я с детства боялся воды и решил довериться методике школы «Mevis», чтобы преодолеть внутренние страхи и опасения и наконец научиться плавать. Безмерно благодарен тренерам, потому что уже через три недели, я подружился с водой, а еще через месяц уже уверенно плавал на небольшие дистанции...</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./src/images/review-ava.jpg" alt="" />
+          <div>
+            <h3>ВИКТОРИЯ КРАСНОВА</h3>
+            <h4>«Научилась плавать в 30 лет»</h4>
+            <p>Я с детства боялся воды и решил довериться методике школы «Mevis», чтобы преодолеть внутренние страхи и опасения и наконец научиться плавать. Безмерно благодарен тренерам, потому что уже через три недели, я подружился с водой, а еще через месяц уже уверенно плавал на небольшие дистанции...</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <svg id="reviews-right" width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M3.41963 41.0107L23.9251 20.5053L3.41964 -9.33454e-05L5.28776e-05 3.41707L17.0907 20.5053L4.98898e-05 37.5936L3.41963 41.0107Z" fill="white"/>
-  </svg>     
+  </div>   
 </div>
 <div class="sixteen">
   <div class="container-xl">
@@ -301,16 +317,14 @@
         </div>
         <div class="contacts-content-columns_right">
           <h3>105082, Москва,<br/>Рубцовская наб. 2 корп. 3, офис 1</h3>
-          <h2>+7 925 111 11 24</h2>
+          <h2 id="phone">+7 925 111 11 24</h2>
           <p><a href="#">Оставить отзыв</a> о соблюдении в организации санитарно-гигиенических требований» (Комитет по промышленной политике, инновациям и торговле Санкт-Петербурга)</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="map">
-  <img src="./src/images/map.jpg" alt="map">
-</div>
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae7fcd42b407be4057f4e2b1e526bde7d043262bbe77b770f3db365bacf84cc7a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
 
 <footer class="footer" data-city="moscow"><div class="footer-top"><div class="footer-top--container"> <a href="http://www.swimmer.ru/otvety-na-chasto-zadavaemye-voprosy/" class="footer-top--faq"><i class="icon icon-faq"></i>Часто задаваемые вопросы</a> <a href="http://www.swimmer.ru/?page_id=45" class="footer-top--search"><i class="icon icon-search"></i>Поиск</a></div></div><div class="footer-content"><div class="footer-content--leftcol"> <a href="http://www.swimmer.ru/" rel="nofollow" class="footer-logo header-logo"> <img src="http://www.swimmer.ru/wp-content/themes/mevis/img/logo.png" alt="Mevis - обучение плаванию взрослых" class="footer-logo--img header-logo--img"> <strong class="footer-logo--text header-logo--text">Европейское<br> плавательное<br> сообщество</strong> </a> <address class="footer-contacts"> <strong class="footer-contacts--title">Европейский бренд (Германия)</strong><p>&nbsp;<p>MEVIS EUROPÄISCHE <br>SCHWIMMGEMEINSCHAFT <br>Nürnberger Str. 20, 10789 Berlin. <!-- закомментировал при смене немецкого адреса --> <!--<p class="footer-contacts--address">MEVIS EUROPÄISCHE SCHWIMMGEMEINSCHAFT<br> Pleskow Straße  1b .23554 / Lübeck<br></p> --> <nav class="footer-contacts--phones"><p>Москва, Рубцовская наб. 2, корп. 3, оф. 1 <br><i class="icon icon-phone"></i><span class="ya-phone1">+7 (925) 111-11-24</span></p><br><p> Санкт-Петербург, Кронверкский проспект, д. 9/б <br><i class="icon icon-phone"></i><span class="ya-phone">+7 (921) 753-17-03</span></p><br><p>Barcelona 08905 HOSPITALET DE LLOBREGAT calle FONT 16 Letra 1<p><i class="icon icon-phone"></i>tel  +34695455599</p><p>&nbsp;</p></address></div><div class="footer-content--rightcol"><div class="footer-menus"> <nav class="footer-menu"><p class="footer-menu--title">О клубе</p><ul id="menu-programm-obucheniya" class="footer-menu--list"><li id="menu-item-569" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/o-lidere/">От руководителя</a></li><li id="menu-item-570" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-570"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/istoriya/">Методика клуба</a></li><li id="menu-item-571" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-571"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/zhizn-kluba/">Жизнь клуба</a></li><li id="menu-item-572" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/otzyvy/">Отзывы</a></li><li id="menu-item-573" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/celi-i-missii/">Цели и миссии</a></li><li id="menu-item-574" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-574"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/garantii-i-sertifikaty/">Гарантии и сертификаты</a></li><li id="menu-item-576" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-576"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/zhizn-kluba/sorevnovaniya/">Соревнования</a></li></ul> </nav> <nav class="footer-menu"><p class="footer-menu--title">Программы обучения</p><ul id="menu-programmy-obucheniya" class="footer-menu--list"><li id="menu-item-577" class="footer-menu--item menu-item menu-item-type-taxonomy menu-item-object-programs-cat menu-item-577"><a class="footer-menu--link" href="http://www.swimmer.ru/programs-cat/obuchenie-plavaniyu-vzroslyx/">Начальное обучение плаванию</a></li><li id="menu-item-578" class="footer-menu--item menu-item menu-item-type-taxonomy menu-item-object-programs-cat menu-item-578"><a class="footer-menu--link" href="http://www.swimmer.ru/programs-cat/obuchenie-plavaniyu-vzroslyx-2/">Продвинутое обучение плаванию</a></li><li id="menu-item-3076" class="footer-menu--item menu-item menu-item-type-taxonomy menu-item-object-programs-cat menu-item-3076"><a class="footer-menu--link" href="http://www.swimmer.ru/programs-cat/individualnoe-obuchenie/">Индивидуальное обучение плаванию</a></li></ul><p class="footer-menu--title" style="margin-top: 27px;margin-bottom: 15px;">Справочники<br>плавательных<br>бассейнов</p><ul id="menu-programmy-obucheniya" class="footer-menu--list"><li id="menu-item-1577" class="footer-menu--item menu-item menu-item-type-taxonomy menu-item-object-programs-cat menu-item-577"><a class="footer-menu--link" href="http://www.swimmer.ru/bassejny-kluba/?city=moscow&all=1">Каталог бассейнов Москвы</a></li><li id="menu-item-1578" class="footer-menu--item menu-item menu-item-type-taxonomy menu-item-object-programs-cat menu-item-577"><a class="footer-menu--link" href="http://www.swimmer.ru/bassejny-kluba/?city=spb&all=1">Каталог бассейнов Санкт-Петербурга</a></li></ul> </nav> <nav class="footer-menu footer-menu-main"><ul id="menu-futer-menyu" class="footer-menu--list"><li id="menu-item-529" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-529"><a class="footer-menu--link" href="http://www.swimmer.ru/ceny/">Цены</a></li><li id="menu-item-530" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a class="footer-menu--link" href="http://www.swimmer.ru/bassejny-kluba/">Бассейны</a></li><li id="menu-item-564" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a class="footer-menu--link" href="http://www.swimmer.ru/trenery/">Тренеры</a></li><li id="menu-item-566" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-566"><a class="footer-menu--link" href="http://www.swimmer.ru/akcii/">Акции</a></li><li id="menu-item-567" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-567"><a class="footer-menu--link" href="http://www.swimmer.ru/vakansii/">Вакансии</a></li><li id="menu-item-568" class="footer-menu--item menu-item menu-item-type-post_type menu-item-object-page menu-item-568"><a class="footer-menu--link" href="http://www.swimmer.ru/klub/franchajzing/">Франчайзинг</a></li><li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7"><a class="footer-menu--link" href="http://www.swimmer.ru/?page_id=5">Контакты</a></li><li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8" style="margin-top: 10px;"><a class="footer-menu--link" href="http://www.swimmer.ru/map/">Карта сайта</a></li></ul> </nav></div><a href="#review"
 role="button"
@@ -324,7 +338,7 @@ onclick="genFormHandler(event.target)">Оставить отзыв об обуч
 <div id="review" class="popup popup_review mfp-hide">
   <p class="popup__title">Оставить отзыв</p>
   <form class="popup__form popup_review-form" id="form" data-yaCounter="review_moscow"> <input type="hidden" name="site_page" value="/"> <input type="hidden" name="formtype" value="Отзывы о клубе Mevis"> <input type="text" name="contact" data-required data-bunch placeholder="Ваше имя" class="popup__form-input"> <input type="tel" name="phone"  data-required  data-bunch placeholder="Ваш номер телефона" class="popup__form-input"> <input type="email" name="email" placeholder="Ваше контактный email" class="popup__form-input"><textarea name="message" placeholder="Примечания" class="popup__form-textarea"></textarea><div class="accept" style="color: #fff; margin-left: 10px; margin-bottom: 10px;"> <label><input data-required type="checkbox" name="accept" required style="margin-right: 10px">Согласен на обработку <a href="http://www.swimmer.ru/license/" target="_blank">персональных данных</a></label></div> <input type="submit" value="Отправить" class="popup__form-submit"></form></div></div></div> </footer>
-
+<script src="./src/js/index.js"></script>
 <script src="./src/js/bootstrap.js"></script>
 </body>
 </html>
