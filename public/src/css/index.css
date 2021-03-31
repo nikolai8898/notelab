@@ -7387,7 +7387,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1850px) {
   .header {
     padding: 83px 0px 120px; }
     .header h1, .header .h1 {
@@ -7408,7 +7408,8 @@ textarea.form-control-lg {
     height: 653px; }
     .fear-content div {
       margin-left: 93px; }
-    .fear-content-children {
+    .fear-content_children {
+      font-size: 24px;
       width: 418px;
       height: 39px; }
   .garant {
@@ -7417,6 +7418,11 @@ textarea.form-control-lg {
       width: 600px; }
       .garant-content_left h2, .garant-content_left .h2 {
         font-size: 48px; }
+    .garant-content_right p {
+      width: 369px;
+      height: 119px; }
+  .cost_edu h3, .cost_edu .h3 {
+    font-size: 20px; }
   .cost_edu h2, .cost_edu .h2 {
     font-size: 48px; }
   .cost_edu-callback {
@@ -7439,7 +7445,7 @@ textarea.form-control-lg {
     height: 220px;
     width: 380px; } }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1850px) {
   .header {
     padding: 83px 0px 120px; }
     .header h1, .header .h1 {
@@ -7460,7 +7466,8 @@ textarea.form-control-lg {
     height: 653px; }
     .fear-content div {
       margin-left: 93px; }
-    .fear-content-children {
+    .fear-content_children {
+      font-size: 24px;
       width: 418px;
       height: 39px; }
   .garant {
@@ -7469,6 +7476,11 @@ textarea.form-control-lg {
       width: 600px; }
       .garant-content_left h2, .garant-content_left .h2 {
         font-size: 48px; }
+    .garant-content_right p {
+      width: 369px;
+      height: 119px; }
+  .cost_edu h3, .cost_edu .h3 {
+    font-size: 20px; }
   .cost_edu h2, .cost_edu .h2 {
     font-size: 48px; }
   .cost_edu-callback {
@@ -7517,20 +7529,21 @@ textarea.form-control-lg {
     .metod-content h3, .metod-content .h3 {
       margin-top: 10px; }
     .metod-content img {
-      margin: 0 auto; }
+      margin: 0; }
   .metod-content-2 {
     flex-direction: column; }
     .metod-content-2 div {
       width: 100%; }
     .metod-content-2 img {
-      margin: 0; }
+      margin-left: calc(50%-33px); }
   .fear {
     height: inherit; }
     .fear-content {
       flex-direction: column; }
       .fear-content div {
         margin-left: 0px; }
-      .fear-content-children {
+      .fear-content_children {
+        font-size: inherit;
         width: 100%;
         height: inherit; }
   .garant {
@@ -7541,20 +7554,29 @@ textarea.form-control-lg {
         width: 100%; }
         .garant-content_left h2, .garant-content_left .h2 {
           font-size: 38px; }
+      .garant-content_right p {
+        width: 100%;
+        text-align: center; }
+  .cost_edu h3, .cost_edu .h3 {
+    font-size: 18px; }
   .cost_edu h2, .cost_edu .h2 {
     font-size: 38px; }
   .cost_edu-callback {
     padding: 20px;
+    margin-top: 10px;
     flex-direction: column; }
     .cost_edu-callback input {
       height: inherit;
       width: 100%; }
   .cost_edu .cost_edu-callback_right__btn {
     margin-top: 10px; }
+  .cost_edu-price-card {
+    margin: 10px auto; }
   .reviews-content {
     flex-direction: column; }
     .reviews-content .swiper img {
-      width: 100%; }
+      width: 98%;
+      height: inherit; }
   .reviews-bg {
     display: none; }
   .reviews h3, .reviews .h3 {
@@ -7573,7 +7595,9 @@ textarea.form-control-lg {
         font-size: 26px;
         margin-top: 10px; }
       .contacts-content-columns_right #phone {
-        font-size: 25px; } }
+        font-size: 25px; }
+  #swimmer {
+    display: none; } }
 
 * {
   font-family: "Avenir Next Cyr";
@@ -7652,7 +7676,8 @@ body {
         text-transform: uppercase;
         color: #FFFFFF; }
       .header-content_btn-group__orange:hover {
-        background-color: #f58549; }
+        background-color: #f58549;
+        border: 2px solid #f58549; }
       .header-content_btn-group__opacity {
         width: 200px;
         height: 54px;
@@ -7667,7 +7692,8 @@ body {
         text-transform: uppercase;
         color: #FFFFFF; }
       .header-content_btn-group__opacity:hover {
-        background-color: #f58549; }
+        background-color: #fff;
+        color: #062440; }
     .header-content__discription {
       display: flex; }
       .header-content__discription p {
@@ -7769,7 +7795,6 @@ body {
       text-transform: uppercase; }
     .fear-content_children {
       font-weight: normal;
-      font-size: 24px;
       line-height: 29px;
       text-align: center;
       padding-top: 3px;
@@ -7777,6 +7802,8 @@ body {
       background: #062440;
       border-radius: 4px;
       margin-bottom: 35px; }
+  .fear #garantee {
+    display: none; }
 
 .garant {
   position: relative;
@@ -7816,8 +7843,6 @@ body {
         margin-right: 20px; }
     .garant-content_right p {
       margin-top: 40px;
-      width: 369px;
-      height: 119px;
       background: #10629A;
       border-radius: 12px;
       padding: 19px 0 0 31px;
@@ -7846,7 +7871,6 @@ body {
   .cost_edu h3, .cost_edu .h3 {
     text-align: left;
     font-weight: 500;
-    font-size: 20px;
     line-height: 120%;
     letter-spacing: 1px;
     text-transform: uppercase; }
@@ -7865,8 +7889,6 @@ body {
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 87px; }
-  .cost_edu #green {
-    box-shadow: inset 0px 5px 0px #81DA7F; }
   .cost_edu #purp {
     box-shadow: inset 0px 5px 0px #9F66E8; }
   .cost_edu #orange {
@@ -7894,7 +7916,8 @@ body {
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #F26419;
-        margin-bottom: 21px; }
+        margin-bottom: 21px;
+        box-shadow: unset; }
       .cost_edu-callback_left p {
         font-weight: normal;
         font-size: 20px;
@@ -7925,7 +7948,8 @@ body {
         text-transform: uppercase;
         color: #FFFFFF; }
       .cost_edu-callback_right__btn:hover {
-        background-color: #f58549; }
+        background-color: #f58549;
+        border: 2px solid #f58549; }
   .cost_edu-price-card {
     width: 280px;
     height: 426px;
@@ -7945,7 +7969,8 @@ body {
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #062440;
-      text-align: center; }
+      text-align: center;
+      box-shadow: inset 0px 5px 0px #81DA7F; }
     .cost_edu-price-card p {
       font-weight: normal;
       font-size: 24px;
@@ -7975,7 +8000,8 @@ body {
       text-transform: uppercase;
       color: #FFFFFF; }
     .cost_edu-price-card__btn:hover {
-      background-color: #f58549; }
+      background-color: #f58549;
+      border: 2px solid #f58549; }
     .cost_edu-price-card .descrip {
       font-weight: normal;
       font-size: 16px;
@@ -8014,8 +8040,9 @@ body {
     overflow: hidden; }
     .reviews-content .swiper {
       display: flex;
+      justify-content: space-between;
       width: 200%;
-      transition: margin-left 2s ease-in-out;
+      transition: margin-left 1s ease-in-out;
       margin-left: 0px; }
       .reviews-content .swiper img {
         margin-right: 61px;
@@ -8073,7 +8100,8 @@ body {
         text-transform: uppercase;
         color: #FFFFFF; }
       .sixteen-content_left_btn:hover {
-        background-color: #f58549; }
+        background-color: #f58549;
+        border: 2px solid #f58549; }
     .sixteen-content_right {
       flex: 1;
       position: relative; }
@@ -8135,7 +8163,8 @@ body {
           letter-spacing: 0.75px;
           text-transform: uppercase; }
         .contacts-content-columns_left_btn:hover {
-          background-color: #f58549; }
+          background-color: #062440;
+          color: #fff; }
       .contacts-content-columns_right h3, .contacts-content-columns_right .h3 {
         font-weight: 600;
         line-height: 120%;

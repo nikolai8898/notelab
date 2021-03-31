@@ -1,7 +1,7 @@
 @import "scss/bootstrap";
 @import "../fonts/stylesheet.css";
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1850px) {
     .header {
         padding: 83px 0px 120px;
         h1 {
@@ -40,7 +40,8 @@
             div {
                 margin-left: 93px;
             }
-            &-children {
+            &_children {
+                font-size: 24px;
                 width: 418px;
                 height: 39px;
             }
@@ -55,9 +56,18 @@
                     font-size: 48px;
                 }
             }
+            &_right{
+                p{
+                    width: 369px;
+                    height: 119px;
+                }
+            }
         }
     }
     .cost_edu {
+        h3 {
+            font-size: 20px;
+        }
         h2 {
             font-size: 48px;
         }
@@ -101,7 +111,7 @@
         }
     }
 }
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1850px) {
     .header {
         padding: 83px 0px 120px;
         h1 {
@@ -140,7 +150,8 @@
             div {
                 margin-left: 93px;
             }
-            &-children {
+            &_children {
+                font-size: 24px;
                 width: 418px;
                 height: 39px;
             }
@@ -155,9 +166,18 @@
                     font-size: 48px;
                 }
             }
+            &_right{
+                p{
+                    width: 369px;
+                    height: 119px;
+                }
+            }
         }
     }
     .cost_edu {
+        h3 {
+            font-size: 20px;
+        }
         h2 {
             font-size: 48px;
         }
@@ -238,7 +258,7 @@
                 margin-top: 10px;
             }
             img {
-                margin: 0 auto;
+                margin: 0;
             }
         }
         &-content-2 {
@@ -247,7 +267,7 @@
                 width: 100%;
             }
             img {
-                margin: 0;
+                margin-left: calc(50%-33px);
             }
         }
     }
@@ -258,7 +278,8 @@
             div {
                 margin-left: 0px;
             }
-            &-children {
+            &_children {
+                font-size: inherit;
                 width: 100%;
                 height: inherit;
             }
@@ -274,14 +295,24 @@
                     font-size: 38px;
                 }
             }
+            &_right{
+                p{
+                    width: 100%;
+                    text-align: center;
+                }
+            }
         }
     }
     .cost_edu {
+        h3 {
+            font-size: 18px;
+        }
         h2 {
             font-size: 38px;
         }
         &-callback {
             padding: 20px;
+            margin-top: 10px;
             flex-direction: column;
             input {
                 height: inherit;
@@ -291,13 +322,17 @@
         .cost_edu-callback_right__btn {
             margin-top: 10px;
         }
+        &-price-card {
+            margin: 10px auto;
+        }
     }
     .reviews {
         &-content{
             flex-direction: column;
             .swiper {
                 img {
-                    width: 100%;
+                    width: 98%;
+                    height: inherit;
                 }
         }
         }
@@ -333,6 +368,9 @@
                 font-size: 25px;
             }
         }
+    }
+    #swimmer {
+        display: none;
     }
 }
 
@@ -425,6 +463,7 @@ body {
             }
             &__orange:hover {
                 background-color: lighten($color: #F26419, $amount: 10);
+                border: 2px solid lighten($color: #F26419, $amount: 10);
             }
             &__opacity {
                 width: 200px;
@@ -441,7 +480,8 @@ body {
                 color: #FFFFFF;
             }
             &__opacity:hover {
-                background-color: lighten($color: #F26419, $amount: 10);
+                background-color: #fff;
+                color: #062440;
             }
         }
         &__discription {
@@ -563,7 +603,6 @@ body {
         }
         &_children {
             font-weight: normal;
-            font-size: 24px;
             line-height: 29px;
             text-align: center;
             padding-top: 3px;
@@ -572,6 +611,9 @@ body {
             border-radius: 4px;
             margin-bottom: 35px;
         }
+    }
+    #garantee {
+        display: none;
     }
 }
 .garant {
@@ -620,8 +662,6 @@ body {
         &_right {
             p{
                 margin-top: 40px;
-                width: 369px;
-                height: 119px;
                 background: #10629A;
                 border-radius: 12px;
                 padding: 19px 0 0 31px;
@@ -655,7 +695,6 @@ body {
     h3 {
         text-align: left;
         font-weight: 500;
-        font-size: 20px;
         line-height: 120%;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -677,9 +716,6 @@ body {
         font-size: 24px;
         line-height: 29px;
         margin-bottom: 87px;
-    }
-    #green {
-        box-shadow: inset 0px 5px 0px #81DA7F;
     }
     #purp {
         box-shadow: inset 0px 5px 0px #9F66E8;
@@ -714,6 +750,7 @@ body {
                 text-transform: uppercase;
                 color: #F26419;
                 margin-bottom: 21px;
+                box-shadow: unset;
             }
             p {
                 font-weight: normal;
@@ -750,6 +787,7 @@ body {
             }
             &__btn:hover {
                 background-color: lighten($color: #F26419, $amount: 10);
+                border: 2px solid lighten($color: #F26419, $amount: 10);
             }
         }
     }
@@ -773,6 +811,7 @@ body {
             text-transform: uppercase;
             color: #062440;
             text-align: center;
+            box-shadow: inset 0px 5px 0px #81DA7F;
         }
         p {
             font-weight: normal;
@@ -807,6 +846,7 @@ body {
         }
         &__btn:hover {
             background-color: lighten($color: #F26419, $amount: 10);
+            border: 2px solid lighten($color: #F26419, $amount: 10);
         }
         .descrip {
             font-weight: normal;
@@ -852,8 +892,9 @@ body {
         overflow: hidden;
         .swiper {
             display: flex;
+            justify-content: space-between;
             width: 200%;
-            transition: margin-left 2s ease-in-out;
+            transition: margin-left 1s ease-in-out;
             margin-left: 0px;
             img {
                 margin-right: 61px;
@@ -920,6 +961,7 @@ body {
             }
             &_btn:hover {
                 background-color: lighten($color: #F26419, $amount: 10);
+                border: 2px solid lighten($color: #F26419, $amount: 10);
             }    
         }
         &_right{
@@ -991,7 +1033,8 @@ body {
                     text-transform: uppercase;
                 }
                 &_btn:hover {
-                    background-color: lighten($color: #F26419, $amount: 10);
+                    background-color: #062440;
+                    color: #fff;
                 }
             }
             &_right{
