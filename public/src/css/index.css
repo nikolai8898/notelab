@@ -8177,3 +8177,43 @@ body {
       .contacts-content-columns_right a {
         color: #F26419;
         text-decoration: unset; }
+
+.modal {
+  position: fixed; }
+  .modal-block {
+    background: #DADADA;
+    box-shadow: 0px 17px 30px -17px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 60px 100px; }
+    .modal-block h2, .modal-block .h2 {
+      font-weight: 750;
+      font-size: 42px;
+      line-height: 120%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #062440; }
+    .modal-block p {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #062440; }
+    .modal-block-group label {
+      font-weight: 450;
+      font-size: 18px;
+      line-height: 22px;
+      color: #062440; }
+    .modal-block-group input {
+      padding-left: 20px; }
+    .modal-block-group_btn {
+      width: 250px;
+      height: 54px;
+      left: 1200px;
+      top: 868px;
+      background: #F26419;
+      border: 2px solid #F26419;
+      box-sizing: border-box;
+      border-radius: 18px; }
+    .modal-block-group_btn:hover {
+      background-color: #f58549;
+      border: 2px solid #f58549; }
