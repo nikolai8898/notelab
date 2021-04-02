@@ -222,7 +222,7 @@
         }
     }
 }
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 900px) { 
     .header {
         padding: 10px ;
         h1 {
@@ -382,11 +382,11 @@
     font-weight: 300;
 }
 body, html {
-    background: linear-gradient(0deg, #EEEEEE 0%, rgba(238, 238, 238, 0.74) 36.83%);
-    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 body {
-    overflow-x: hidden;
+    background: linear-gradient(0deg, #EEEEEE 0%, rgba(238, 238, 238, 0.74) 36.83%);
+    -webkit-font-smoothing: antialiased;
 }
 .footer {
     a {
@@ -614,7 +614,7 @@ body {
             margin-bottom: 35px;
         }
     }
-    #garantee {
+    .garantee {
         display: none;
     }
 }

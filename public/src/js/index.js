@@ -27,6 +27,10 @@ function formGO() {
     body.style.display = "none"
     bodyGo.style.display = "block"
 }
+function closeModal() {
+    const modal = document.getElementById('modal')
+    modal.style.display = "none"
+}
 function goBack() {
     const body = document.getElementById('body')
     const bodyGo = document.getElementById('go-back')

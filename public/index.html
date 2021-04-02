@@ -66,7 +66,7 @@
       <h1>Обучение взрослых плаванию с нуля</h1>
       <h5>и до профессионального уровня</h5>
       <div class="header-content_btn-group">
-        <button class="header-content_btn-group__orange">ЗАПИСАТЬСЯ</button>
+        <button class="header-content_btn-group__orange" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         <button class="header-content_btn-group__opacity">Программы</button>
       </div>
       <div class="row">
@@ -167,7 +167,7 @@
       </div>
       <div class="garant-content_right">
         <p>Если не научитесь,<br/>следующий курс<br/><strong>за наш счёт!</strong></p>
-        <img src="./src/images/guarantee_1.png" alt="garantee" id="garantee"/>
+        <img src="./src/images/guarantee_1.png" alt="garantee" class="garantee"/>
       </div>
     </div>
   </div>
@@ -183,7 +183,7 @@
           <p>5 занятий</p>
           <p>1 месяц обучения</p>
           <h4>6 500 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
       <div class="col-sm-3">
@@ -192,7 +192,7 @@
           <p>8 занятий</p>
           <p>1 месяц обучения</p>
           <h4>9 500 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
       <div class="col-sm-3">
@@ -201,7 +201,7 @@
           <p>8 занятий</p>
           <p>1 месяц обучения</p>
           <h4>9 500 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
       <div class="col-sm-3">
@@ -210,7 +210,7 @@
           <p>10 занятий</p>
           <p>1 месяц обучения</p>
           <h4>11 000 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
     </div>
@@ -222,7 +222,7 @@
           <p>1 месяц обучения</p>
           <p class="descrip"><span style="color: #F26419;">*</span>Для умеющих плавать, но желающих улучшить технику</p>
           <h4>8 500 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
       <div class="col-sm-3">
@@ -230,9 +230,9 @@
           <h3 id="blue">Курс подготовки к окрытой воде</h3>
           <p>10 занятий</p>
           <p>1 месяц обучения</p>
-          <p class="descrip"><span style="color: #F26419;">*</span>Для умеющих плавать, но желающих улучшить технику</p>
+          <p class="descrip"><span style="color: #F26419;">*</span>Для желающих участвовать в заплывах на открытой воде</p>
           <h4>14 000 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
       <div class="col-sm-3">
@@ -240,9 +240,9 @@
           <h3 id="orange">Программа «Здоровая спина»</h3>
           <p>16 занятий</p>
           <p>1 месяц обучения</p>
-          <p class="descrip"><span style="color: #F26419;">*</span>Для умеющих плавать, но желающих улучшить технику</p>
+          <p class="descrip"><span style="color: #F26419;">*</span>программа для тех, кто имеет<br/>боли в позвоночнике</p>
           <h4>24 000 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
       <div class="col-sm-3">
@@ -251,7 +251,7 @@
           <p>1 занятие</p>
           <p>Без ограничений</p>
           <h4>3 000 ₽</h4>
-          <button class="cost_edu-price-card__btn">ЗАПИСАТЬСЯ</button>
+          <button class="cost_edu-price-card__btn" onclick="showModal()">ЗАПИСАТЬСЯ</button>
         </div>
       </div>
     </div>
@@ -275,7 +275,7 @@
         </div>
         <div class="cost_edu-callback_right">
           <input type="text" placeholder="Телефон" />
-          <button class="cost_edu-callback_right__btn" onclick="showModal()">Отправить</button>
+          <button class="cost_edu-callback_right__btn">Отправить</button>
         </div>
       </div>
     </div>
@@ -357,7 +357,7 @@
     </div>
   </div>
 </div>
-<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae7fcd42b407be4057f4e2b1e526bde7d043262bbe77b770f3db365bacf84cc7a&amp;source=constructor" width="1920" height="400"></iframe>
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae7fcd42b407be4057f4e2b1e526bde7d043262bbe77b770f3db365bacf84cc7a&amp;source=constructor" width="100%" height="400px"></iframe>
 
 <footer class="footer" data-city="moscow">
   <div class="footer-top">
@@ -458,32 +458,37 @@
 
 </div>
 <!-- новый код -->
-<div class="modalF" id="modal">
-  <div class="container-xl">
-    <div class="modalF-block">
-      <h2>Оставьте заявку</h2>
-      <p>Заполните короткую форму и мы свяжемся с вами в кротчайшие сроки</p>
-      <div class="modalF-block-group">
-        <div>
-          <label>Ваше имя</label>
-          <input type="text" placeholder="Иван Иванов" id="name" required>
+
+<div class="modal-wrapper" id="modal">
+    <div class="modalF">
+      <div class="container-xl">
+        <div class="modalF-block">
+          <h2>Оставьте заявку</h2>
+          <p>Заполните короткую форму и мы свяжемся с вами в кротчайшие сроки</p>
+          <div class="modalF-block-group">
+            <div>
+              <label>Ваше имя</label>
+              <input type="text" placeholder="Иван Иванов" id="name" required>
+            </div>
+            <div>
+              <label>Телефон</label>
+              <input type="text" placeholder="+7 (999) 123-45-67" id="phone" required>
+            </div>
+            <button class="modalF-block-group_btn" onclick="formGO()">Оставить заявку</button>
+          </div>
+          <div class="custom">
+            <label class="container">Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных.
+              <input type="checkbox" required>
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <button class="close-modal" onclick="closeModal()"><img src="./src/images/1487086345-cross_81577.png" alt=""/></button>
         </div>
-        <div>
-          <label>Телефон</label>
-          <input type="text" placeholder="+7 (999) 123-45-67" id="phone" required>
-        </div>
-        <button class="modalF-block-group_btn" onclick="formGO()">Оставить заявку</button>
-      </div>
-      <div class="custom">
-        <label class="container">Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных.
-          <input type="checkbox" required>
-          <span class="checkmark"></span>
-        </label>
       </div>
     </div>
-  </div>
 </div>
 <script src="./src/js/index.js"></script>
 <script src="./src/js/bootstrap.js"></script>
 </body>
+
 </html>
