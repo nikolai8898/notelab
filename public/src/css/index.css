@@ -7388,6 +7388,222 @@ textarea.form-control-lg {
     display: none !important; } }
 
 @media screen and (min-width: 1850px) {
+  #go-back {
+    padding-bottom: 445px; }
+    #go-back h1, #go-back .h1 {
+      font-size: 60px;
+      margin-top: 310px; }
+  p {
+    font-size: 20px; }
+  .modalF {
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 600px); }
+    .modalF-block {
+      padding: 60px 100px; }
+      .modalF-block-group {
+        align-items: end; }
+        .modalF-block-group h2, .modalF-block-group .h2 {
+          font-size: 42px; }
+        .modalF-block-group p {
+          font-size: 24px;
+          margin-bottom: 60px; }
+        .modalF-block-group #name {
+          width: 380px; }
+        .modalF-block-group #phone {
+          width: 310px; } }
+
+@media screen and (max-width: 1850px) {
+  #go-back {
+    padding-bottom: 445px; }
+    #go-back h1, #go-back .h1 {
+      font-size: 60px;
+      margin-top: 310px; }
+    #go-back p {
+      font-size: 20px; }
+  .modalF {
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 600px); }
+    .modalF-block {
+      padding: 60px 100px; }
+      .modalF-block-group {
+        align-items: end; }
+        .modalF-block-group h2, .modalF-block-group .h2 {
+          font-size: 42px; }
+        .modalF-block-group p {
+          font-size: 24px;
+          margin-bottom: 60px; }
+        .modalF-block-group #name {
+          width: 380px; }
+        .modalF-block-group #phone {
+          width: 310px; } }
+
+@media screen and (max-width: 576px) {
+  #go-back {
+    padding-bottom: 50px; }
+    #go-back h1, #go-back .h1 {
+      font-size: 50px;
+      margin-top: -50px; }
+    #go-back p {
+      font-size: 18px; }
+  .modalF {
+    position: fixed;
+    top: 10vh;
+    left: 5vw; }
+    .modalF-block {
+      height: 600px;
+      width: 350px;
+      padding: 20px; }
+      .modalF-block-group {
+        align-items: center;
+        flex-direction: column; }
+        .modalF-block-group h2, .modalF-block-group .h2 {
+          font-size: 32px; }
+        .modalF-block-group input {
+          margin-bottom: 20px; }
+        .modalF-block-group p {
+          font-size: 18px;
+          margin-bottom: 30px; }
+        .modalF-block-group #name {
+          width: 100%; }
+        .modalF-block-group #phone {
+          width: 100%; } }
+
+#go-back {
+  display: none; }
+  #go-back h1, #go-back .h1 {
+    margin-bottom: 10px;
+    font-weight: 750;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase; }
+  #go-back p {
+    font-weight: normal;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px; }
+  #go-back .header-content_btn-group {
+    margin: 0px auto;
+    width: 200px; }
+
+.modalF {
+  display: none; }
+  .modalF-block {
+    background: #DADADA;
+    box-shadow: 0px 17px 30px -17px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #062440;
+    /* Customize the label (the container) */
+    /* Hide the browser's default checkbox */
+    /* Create a custom checkbox */
+    /* On mouse-over, add a grey background color */
+    /* When the checkbox is checked, add a blue background */
+    /* Create the checkmark/indicator (hidden when not checked) */
+    /* Show the checkmark when checked */
+    /* Style the checkmark/indicator */ }
+    .modalF-block h2, .modalF-block .h2 {
+      font-weight: 750;
+      line-height: 120%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 20px; }
+    .modalF-block p {
+      font-weight: normal;
+      line-height: 29px;
+      text-align: center; }
+    .modalF-block-group {
+      display: flex;
+      margin-bottom: 32px; }
+      .modalF-block-group label {
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 22px;
+        display: block;
+        margin-bottom: 10px; }
+      .modalF-block-group input {
+        padding-left: 20px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #EBEBEB;
+        box-sizing: border-box;
+        border-radius: 12px;
+        margin-right: 30px; }
+      .modalF-block-group_btn {
+        width: 250px;
+        height: 54px;
+        left: 1200px;
+        top: 868px;
+        background: #F26419;
+        border: 2px solid #F26419;
+        box-sizing: border-box;
+        border-radius: 18px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+      .modalF-block-group_btn:hover {
+        background-color: #f58549;
+        border: 2px solid #f58549; }
+    .modalF-block .container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      color: #062440;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .modalF-block .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .modalF-block .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 24px;
+      width: 24px;
+      background: #FFFFFF;
+      border: 1px solid #062440;
+      box-sizing: border-box;
+      border-radius: 4px; }
+    .modalF-block .container:hover input ~ .checkmark {
+      background-color: #ccc; }
+    .modalF-block .container input:checked ~ .checkmark {
+      border: 2px solid #062440;
+      border-radius: 4px;
+      background: #062440; }
+    .modalF-block .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
+    .modalF-block .container input:checked ~ .checkmark:after {
+      display: block; }
+    .modalF-block .container .checkmark:after {
+      left: 4px;
+      top: 1px;
+      width: 10px;
+      height: 14px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+
+@media screen and (min-width: 1850px) {
   .header {
     padding: 83px 0px 120px; }
     .header h1, .header .h1 {
@@ -8177,43 +8393,3 @@ body {
       .contacts-content-columns_right a {
         color: #F26419;
         text-decoration: unset; }
-
-.modal {
-  position: fixed; }
-  .modal-block {
-    background: #DADADA;
-    box-shadow: 0px 17px 30px -17px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    padding: 60px 100px; }
-    .modal-block h2, .modal-block .h2 {
-      font-weight: 750;
-      font-size: 42px;
-      line-height: 120%;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #062440; }
-    .modal-block p {
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 29px;
-      text-align: center;
-      color: #062440; }
-    .modal-block-group label {
-      font-weight: 450;
-      font-size: 18px;
-      line-height: 22px;
-      color: #062440; }
-    .modal-block-group input {
-      padding-left: 20px; }
-    .modal-block-group_btn {
-      width: 250px;
-      height: 54px;
-      left: 1200px;
-      top: 868px;
-      background: #F26419;
-      border: 2px solid #F26419;
-      box-sizing: border-box;
-      border-radius: 18px; }
-    .modal-block-group_btn:hover {
-      background-color: #f58549;
-      border: 2px solid #f58549; }

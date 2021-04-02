@@ -10,8 +10,41 @@
   <link rel="stylesheet" href="./src/css/css/bootstrap.css" />
   <link rel="stylesheet" href="./src/css/index.css"/>
 </head>
-<body> 
 
+
+<body> 
+  <!-- новый код -->
+  <div class="header" id="go-back">
+    <div class="container-xl">
+      <div class="header-nav">
+        <img src="./src/images/logo.png" alt="logo" />
+        <ul>
+          <li><a href="">Методика</a></li>
+          <li><a href="">Цены</a></li>
+          <li><a href="">Отзывы</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+        <div>
+          <svg style="margin-top: -5px;" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.5951 19.006H15.5671C11.7254 18.9114 8.05937 17.3775 5.2951 14.708C2.62462 11.9462 1.08979 8.28156 0.994984 4.441C0.989327 3.903 1.20056 3.38536 1.5811 3.005L4.2951 0.293C4.6856 -0.0973819 5.3186 -0.0973819 5.7091 0.293L9.7091 4.293C10.0995 4.6835 10.0995 5.3165 9.7091 5.707L8.1131 7.3C8.40911 8.40592 8.95437 9.4294 9.7071 10.292C10.5681 11.045 11.5903 11.5906 12.6951 11.887L14.2951 10.293C14.6856 9.90262 15.3186 9.90262 15.7091 10.293L19.7091 14.293C20.0995 14.6835 20.0995 15.3165 19.7091 15.707L16.9951 18.42C16.625 18.7939 16.1212 19.0048 15.5951 19.006ZM5.0001 2.415H4.9951L2.9951 4.419C3.07664 7.73766 4.40142 10.9047 6.7071 13.293C9.09553 15.5979 12.2619 16.9225 15.5801 17.005L17.5871 15L14.9951 12.415L13.7021 13.707C13.5171 13.894 13.2652 13.9995 13.0021 14C12.9319 14 12.8618 13.9927 12.7931 13.978C11.1267 13.6094 9.57949 12.8285 8.2931 11.707C7.17155 10.4206 6.39071 8.87337 6.0221 7.207C5.95256 6.87577 6.05529 6.53184 6.2951 6.293L7.5871 5L5.0001 2.415Z" fill="#F26419"/>
+          </svg>
+          <a href="+79251111124">+7 925 111 11 24</a> 
+        </div>
+      </div>
+      <div class="header-content">
+        <h1><span style="color:#F26419">Спасибо</span> за заявку</h1>
+        <p>Ваша заявка успешно оформлена. Совсем скоро мы вам перезвоним.</p>
+        <div class="header-content_btn-group">
+          <button class="header-content_btn-group__opacity" onclick="goBack()">Вернуть на сайт</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- новый код -->
+
+
+  <!-- добавил див с айди боди - кончается перед модалкой -->
+  <div  id="body">
 <div class="header">
   <div class="container-xl">
     <div class="header-nav">
@@ -242,7 +275,7 @@
         </div>
         <div class="cost_edu-callback_right">
           <input type="text" placeholder="Телефон" />
-          <button class="cost_edu-callback_right__btn">Отправить</button>
+          <button class="cost_edu-callback_right__btn" onclick="showModal()">Отправить</button>
         </div>
       </div>
     </div>
@@ -423,25 +456,30 @@
           <input type="submit" value="Отправить" class="popup__form-submit"></form></div></div></div>
          </footer>
 
-         
-<div class="modal">
+</div>
+<!-- новый код -->
+<div class="modalF" id="modal">
   <div class="container-xl">
-    <div class="modal-block">
+    <div class="modalF-block">
       <h2>Оставьте заявку</h2>
       <p>Заполните короткую форму и мы свяжемся с вами в кротчайшие сроки</p>
-      <div class="modal-block-group">
+      <div class="modalF-block-group">
         <div>
           <label>Ваше имя</label>
-          <input type="text" placeholder="Иван Иванов">
+          <input type="text" placeholder="Иван Иванов" id="name" required>
         </div>
         <div>
           <label>Телефон</label>
-          <input type="phone" placeholder="+7 (999) 123-45-67">
+          <input type="text" placeholder="+7 (999) 123-45-67" id="phone" required>
         </div>
-        <button class="modal-block-group_btn">Оставить заявку</button>
+        <button class="modalF-block-group_btn" onclick="formGO()">Оставить заявку</button>
       </div>
-      <input type="checkbox">
-      <label>Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных.</label>
+      <div class="custom">
+        <label class="container">Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных.
+          <input type="checkbox" required>
+          <span class="checkmark"></span>
+        </label>
+      </div>
     </div>
   </div>
 </div>
